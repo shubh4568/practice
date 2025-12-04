@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Navigation Menu Demo</title>
-    <link rel="stylesheet" href="style_5.css" />
-  </head>
-  <body>
-    <h1 class="title">Navigation Menu Demo</h1>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+</head> <center>
+<body>
+    <form></form>
+        <h1>Student Registration Form</h1> </center> <hr/>
 
-    <h2>Block Example</h2>
-    <ul class="menu-block">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+    <lable display="inline-block">Full Name:<lable> 
+        <input type="text" value="Enter your full name" > <br> <br>
+    <lable display="inline-block">Email:</lable>
+       <input type="email" value="Enter valid email address"> <br> <br>
+    <lable display="inline-block">Password:<lable> 
+                <input type="password" > <br><br>
+    <lable display="inline-block">Gender:</lable> 
+                <input type="radio" value="Male" ><lable display="inline-block">Male</lable> 
+                <input type="radio" value="Female" > <lable display="inline-block">Female</lable> 
+                <input type="radio" value="Other" ><lable display="inline-block">Other</lable>  <br><br>
+    <label>Course:</label>
+                            <select name="--Selet Course--" id="room">
+                                <option>B.Tech</option>
+                                <option>M.Tech</option>
+                                <option>BBA</option>
+                                <option>MBA</option>
+                            </select> <br> <br>
+     <label>Contact No.:</label> <input type="tel" >
 
-    <h2>Inline Example</h2>
-    <div class="menu-inline">
-      <a href="#">Home</a>
-      <a href="#">Products</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </div>
+      <p> Address:</p>
+      <textarea value="Enter your address" rows="4" cols="40"></textarea> <br> <br>
 
-    <h2>Inline-Block Example</h2>
-    <ul class="menu-inlineblock">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-
-    <h2>Float Example</h2>
-    <ul class="menu-float">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </body>
-</html>
+      <input type="submit" value="Register">
+      <input type="reset" value="Clear"> 
+    </form>
+    <hr/>
+    <center><p>&copy; Student Registration Portal</p></center>
+</body> 
